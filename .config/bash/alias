@@ -5,7 +5,8 @@ alias la='ls -la'
 # git
 alias gs='git status'
 alias ga='git add'
-alias gc='git commit -m'
+alias gc='git clone'
+alias gcm='git commit -m'
 alias gp='git push'
 
 if [ -x "$(command -v nvim)" ]; then
