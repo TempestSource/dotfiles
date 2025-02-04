@@ -1,0 +1,18 @@
+# ls
+alias ll='ls -l'
+alias la='ls -la'
+
+# git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+
+if [ -x "$(command -v nvim)" ]; then
+  alias v='nvim'
+  alias vi='nvim'
+  alias vim='nvim'
+elif [ -x "$(command -v vim)" ]; then
+  alias v='vim'
+  alias vi='vim'
+fi
